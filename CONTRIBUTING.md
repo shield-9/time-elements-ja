@@ -5,13 +5,13 @@
 Clone the repository from GitHub.
 
 ```
-$ git clone https://github.com/github/time-elements
+$ git clone https://github.com/shield-9/time-elements-ja
 ```
 
 Now just cd into the directory and run `make` to install the development dependencies.
 
 ```
-$ cd time-elements/
+$ cd time-elements-ja/
 $ make
 ```
 

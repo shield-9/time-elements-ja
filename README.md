@@ -1,4 +1,4 @@
-# &lt;time&gt; element extensions
+# &lt;time&gt; element extensions (Japanese Version)
 
 Formats a timestamp as a localized string or as relative text that auto-updates in the user's browser.
 
@@ -24,10 +24,10 @@ If the browser's JavaScript is disabled, the default text served in the cached m
 
 ## Installation
 
-Available on [Bower](http://bower.io) as **time-elements**.
+Available on [Bower](http://bower.io) as **time-elements-ja**.
 
 ```
-$ bower install time-elements
+$ bower install time-elements-ja
 ```
 
 This component is built on the upcoming [Web Component](http://webcomponents.org/) stack. Specifically, it requires a feature called [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/).
@@ -124,7 +124,7 @@ Attribute      | Options                        | Description
 
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png)
 --- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | 9+ ✔ | Latest ✔ | 6.1+ ✔ |
+Latest ? | Latest ? | 9+ ? | Latest ? | 6.1+ ? |
 
 ## See Also
 
