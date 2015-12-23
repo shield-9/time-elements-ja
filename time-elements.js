@@ -93,7 +93,7 @@
     if (ago) {
       return ago;
     } else {
-      return 'on ' + this.formatDate();
+      return this.formatDate();
     }
   };
 
