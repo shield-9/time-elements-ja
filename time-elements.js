@@ -2,8 +2,8 @@
   'use strict';
 
   // Shout out to https://github.com/basecamp/local_time/blob/master/app/assets/javascripts/local_time.js.coffee
-  var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var weekdays = ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'];
+  var months = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
 
   function pad(num) {
     return ('0' + num).slice(-2);
@@ -104,23 +104,23 @@
     var hr = Math.round(min / 60);
     var day = Math.round(hr / 24);
     if (ms < 0) {
-      return 'just now';
+      return 'たった今';
     } else if (sec < 10) {
-      return 'just now';
+      return 'たった今';
     } else if (sec < 45) {
-      return sec + ' seconds ago';
+      return sec + '秒前';
     } else if (sec < 90) {
-      return 'a minute ago';
+      return '1分前';
     } else if (min < 45) {
-      return min + ' minutes ago';
+      return min + '分前';
     } else if (min < 90) {
-      return 'an hour ago';
+      return '1時間前';
     } else if (hr < 24) {
-      return hr + ' hours ago';
+      return hr + '時間前';
     } else if (hr < 36) {
-      return 'a day ago';
+      return '1日前';
     } else if (day < 30) {
-      return day + ' days ago';
+      return day + '日前';
     } else {
       return null;
     }
@@ -135,31 +135,31 @@
     var month = Math.round(day / 30);
     var year = Math.round(month / 12);
     if (ms < 0) {
-      return 'just now';
+      return 'たった今';
     } else if (sec < 10) {
-      return 'just now';
+      return 'たった今';
     } else if (sec < 45) {
-      return sec + ' seconds ago';
+      return sec + '秒前';
     } else if (sec < 90) {
-      return 'a minute ago';
+      return '1分前';
     } else if (min < 45) {
-      return min + ' minutes ago';
+      return min + '分前';
     } else if (min < 90) {
-      return 'an hour ago';
+      return '1時間前';
     } else if (hr < 24) {
-      return hr + ' hours ago';
+      return hr + '時間前';
     } else if (hr < 36) {
-      return 'a day ago';
+      return '1日前';
     } else if (day < 30) {
-      return day + ' days ago';
+      return day + '日前';
     } else if (day < 45) {
-      return 'a month ago';
+      return '1か月前';
     } else if (month < 12) {
-      return month + ' months ago';
+      return month + 'か月前';
     } else if (month < 18) {
-        return 'a year ago';
+        return '1年前';
     } else {
-      return year + ' years ago';
+      return year + '年前';
     }
   };
 
