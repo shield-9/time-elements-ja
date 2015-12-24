@@ -54,16 +54,16 @@
           return pad(minute);
         case 'p':
           if (hour > 11) {
-            return 'PM';
+            return '午前';
           } else {
-            return 'AM';
+            return '午後';
           }
           break;
         case 'P':
           if (hour > 11) {
-            return 'pm';
+            return '午前';
           } else {
-            return 'am';
+            return '午後';
           }
           break;
         case 'S':
