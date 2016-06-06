@@ -3,7 +3,7 @@
 
   // Shout out to https://github.com/basecamp/local_time/blob/master/app/assets/javascripts/local_time.js.coffee
   var weekdays = ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'];
-  var months = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+  var months = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
 
   function pad(num) {
     return ('0' + num).slice(-2);
